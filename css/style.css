@@ -1,4 +1,5 @@
 
+
 :root {
   --white: #d9dedb;
   --black: #272727; 
@@ -33,7 +34,6 @@ body {
   margin: 50px;
   /* background: white; */
   background-attachment: fixed;
-  letter-spacing: -1px; 
   margin: 1.2rem;
   font-size: 15px;
 
@@ -42,7 +42,8 @@ body {
 hr {
     border: 2px solid white;
     background: white;
-    width: 110rem;
+    width: 108rem;
+    border-radius: 4px;
 
 
 }
@@ -51,13 +52,13 @@ h1{
   margin: 0 0 1px 0;
   color: #348ac7; 
   text-align: center;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 
 
 
 }
-h4{
-  font-size: 12px;
+h3{
+  font-size: 15px;
   letter-spacing: 1px;
   text-align: center;
   color: #348ac7;
@@ -108,6 +109,7 @@ img {
   display: grid; 
   margin-right: 3px;
   margin-left: 3px;
+  grid-gap: 3px;
   grid-template-areas: 
   "main-area main-area sidebar-search" 
   "main-area main-area sidebar-select"
@@ -121,6 +123,7 @@ img {
 
 .main-area{
   grid-area:main-area;
+
    
   padding: 10px;
 /*  border: 1px solid rgba(255, 255, 255, 0.5);
@@ -140,9 +143,8 @@ img {
 .sidebar-select{
     grid-area:sidebar-select ;
     margin-right: 20px;
-/*  border: 1px solid rgba(255, 255, 255, 0.5);
+ /*  border: 1px solid rgba(255, 255, 255, 0.5);
 */  
-    margin-right: 20px;
 
 }
 
@@ -185,8 +187,8 @@ img {
   padding-left: 20px;
   padding-top: 1rem;
   background-image:linear-gradient(#00c6ff,#0072ff) ; 
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  /*border-top-left-radius: 15px;
+  border-top-right-radius: 15px;*/
   margin-top: 20px;;
 
 
@@ -199,9 +201,9 @@ img {
    justify-content: start;
    padding-left: 20px;
    padding-top: 15px;
-   background: white; 
-   border-bottom-left-radius: 15px;
-   border-bottom-right-radius: 15px;
+   background: #ededed; 
+  /* border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;*/
 
 }
 
@@ -221,8 +223,8 @@ img {
   align-items: center;
   height:50px ;
   background-image:linear-gradient(#00c6ff,#0072ff) ; 
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;  
+ /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px;  */
 
 }
 
@@ -234,11 +236,18 @@ img {
    height:120px ;
    justify-content: start;
    background: white; 
-   border-bottom-left-radius: 15px;
-   border-bottom-right-radius: 15px;   
+ /*  border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;   */
+   background: #ededed; 
 
 }
 
 .btn {
   font-size: 14px;
+}
+
+.list-unstyled {
+  margin-top: 2px;
+  margin-bottom: 1px;
+
 }
