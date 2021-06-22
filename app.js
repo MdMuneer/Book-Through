@@ -1,4 +1,4 @@
-//loading a book from disk
+//loading a book from disk.
 
 function loadBook(filename, displayName)  {
 	let currentBook = "";
